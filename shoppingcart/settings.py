@@ -42,12 +42,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'django.contrib.sites',
-    "dj_rest_auth",
-    "allauth",
-    "allauth.account",
-    "dj_rest_auth.registration",
-    "allauth.socialaccount",
-    "allauth.socialaccount.providers.google",
     'api'
 ]
 AUTH_USER_MODEL = 'api.CustomUser'
