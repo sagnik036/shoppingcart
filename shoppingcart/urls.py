@@ -6,7 +6,7 @@ from rest_framework_simplejwt import views as jwt_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/',include('api.products.urls')),
+    path('',include('api.products.urls')),
     path('api/',include('api.usercart.urls')),
     path('authenticate/',include('api.users.urls')),
     path('authenticate/login/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair')
