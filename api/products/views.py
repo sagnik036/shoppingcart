@@ -85,7 +85,7 @@ class SellerProductView(GenericAPIView):
                         describtion = data.get('describtion'),
                         price = data.get('price'),
                         discount = data.get('discount'),
-                        is_available = data.get('is_is_available')
+                        is_available = data.get('is_available')
                     )
                     response = {
                         "message" : "added successfully",
