@@ -42,11 +42,9 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
-    'django.contrib.sites',
     'api'
 ]
 AUTH_USER_MODEL = 'api.CustomUser'
-SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
